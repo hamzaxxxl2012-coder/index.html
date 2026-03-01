@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>المطابخ</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+img { height: 220px; object-fit: cover; }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark mb-4">
+<div class="container">
+<a href="index.html" class="btn btn-light">⬅ رجوع</a>
+<span class="navbar-brand mx-auto">معرض المطابخ</span>
+</div>
+</nav>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تكبير الصورة عند الضغط</title>
+<!-- ربط Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+<h2>اضغط على الصورة لتكبيرها</h2>
+
+<!-- الصورة -->
+<img src="11111111.jpeg" alt="11111111.jpeg" class="img-thumbnail" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#imageModal" width="300" height="250">
+
+<!-- المودال -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal-content">
+<div class="modal-body p-0">
+<img src="11111111.jpeg" class="img-fluid" alt="صورة مكبرة">
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ربط Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
